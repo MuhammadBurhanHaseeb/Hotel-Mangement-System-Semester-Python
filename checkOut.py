@@ -1,0 +1,41 @@
+class  checkOut:
+      TCOGid=""
+      TCOname=""
+      TCOaddres=""
+      TCOcontact=""
+      TCOemail=""
+      TCOgender=""
+      TCOa=""
+      TCOc=""
+      TCOdate=""
+      TCOidate=""
+      Odays=""
+      TCOroomNO=""
+      TCOTroom=""
+      TCOSroom=""
+      TCOroomRate=""
+      TCOSdiscount=""
+      TCOTdiscount=""
+      TCOdiscountRate=""
+      Obalance=""
+
+      def __init__( self,a,  b,  c,  d,  e,  f,  g, h,  i,  j, k, l,  m,  n,  o, p,  q,  r,  s):
+            self.TCOGid = a
+            self.TCOname = b
+            self.TCOaddres = c
+            self.TCOcontact = d
+            self.TCOemail = e
+            self.TCOgender = f
+            self.TCOa = g
+            self.TCOc = h
+            self.TCOdate = i
+            self.TCOidate = j
+            self.Odays = k
+            self.TCOroomNO = l
+            self.TCOTroom = m
+            self.TCOSroom = n
+            self.TCOroomRate = o
+            self.TCOSdiscount = p
+            self.TCOTdiscount = q
+            self.TCOdiscountRate = r
+            self.Obalance = s
